@@ -19,7 +19,8 @@
 	"settings": {},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"Swellaby.rust-pack"
+		"Swellaby.rust-pack",
+		"vadimcn.vscode-lldb"
 	]
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
