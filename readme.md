@@ -2,9 +2,9 @@
 面倒だと思うその前にtemplateを作りました．
 
 ## Issue作成（各リポジトリごとにうまい具合に設定してください）
-| Project \ Issue | improve | bugfix |
+| Project \ Issue | atcoder | improve | bugfix |
 | :-- | :-: | :-: |
-| [issue and improve][@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue][bugfix@issue_and_improve] |
+| [issue and improve][@issue_and_improve] | [Make Issue][atcoder@issue_and_improve] | [Make Issue][improve@issue_and_improve] | [Make Issue][bugfix@issue_and_improve] |
 
 ## テンプレートとして使用したらはじめにすること
 1. **readme.mdの修正，やらないと許さない**
@@ -45,6 +45,7 @@
 
 <!-- Issue and Improve project -->
 [@issue_and_improve]:https://github.com/streamwest-1629/atcoder-rs/projects/1 
+[atcoder@issue_and_improve]:https://github.com/streamwest-1629/atcoder-rs/issues/new?labels=enhancement&template=atcoder.md&title=atcoder-%3C%E3%82%B3%E3%83%B3%E3%83%86%E3%82%B9%E3%83%88%E5%90%8D%3E&projects=streamwest-1629/atcoder-rs/1
 <!-- Make Issue in Issue and Improve project -->
 [improve@issue_and_improve]:https://github.com/streamwest-1629/atcoder-rs/issues/new?labels=enhancement&template=improve.md&title=improve%2F%3C%E6%A9%9F%E8%83%BD%E3%81%AE%E7%B0%A1%E5%8D%98%E3%81%AA%E8%AA%AC%E6%98%8E%3E&projects=streamwest-1629/atcoder-rs/1
 <!-- Make Issue in Issue and Improve project -->
