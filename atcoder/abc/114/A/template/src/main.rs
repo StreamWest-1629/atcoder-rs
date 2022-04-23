@@ -7,11 +7,12 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        age: i32,
     }
 
-    println!("{} {}", a + b + c, s)
+    if age == 3 || age == 5 || age == 7 {
+        println!("YES")
+    } else {
+        println!("NO")
+    }
 }
