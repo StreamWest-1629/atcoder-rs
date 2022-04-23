@@ -10,4 +10,4 @@ RUN apt-get update && \
     make -j$(nproc) CXX=clang++ && \
     make install && \
     mold -run cargo install cargo-generate && \
-    mold -run rustup component add rustfmt clippy rls
+    rustup component add rustfmt clippy rls rust-analysis rust-src
