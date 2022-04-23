@@ -7,11 +7,26 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        n: i32,
     }
 
-    println!("{} {}", a + b + c, s)
+    let mut n_divs = 0;
+
+    for val in 2..(n + 1) {
+        let mut buf = val;
+        let mut div = 2;
+        while buf > 1 {
+            while buf % div == 0 {
+                buf /= div;
+                n_divs += 1;
+            }
+            div += 1;
+        }
+    }
+
+    if n_divs < 75 {
+        println!("0");
+        return;
+    } else {
+    }
 }
