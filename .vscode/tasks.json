@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "rust build active file",
+            "group": "build",
+            "type": "shell",
+            "command": "/workspace/scripts/build.sh",
+            "args": [
+                "${fileDirname}/../"
+            ]
+        }
+    ]
+}
