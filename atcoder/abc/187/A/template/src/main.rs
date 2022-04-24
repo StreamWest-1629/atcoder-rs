@@ -9,9 +9,9 @@ fn main() {
     input! {
         a: i32,
         b: i32,
-        c: i32,
-        s: String,
     }
 
-    println!("{} {}", a + b + c, s)
+    let a_res = (a / 100) + ((a % 100) / 10) + (a % 10);
+    let b_res = (b / 100) + ((b % 100) / 10) + (b % 10);
+    println!("{}", cmp::max(a_res, b_res));
 }
