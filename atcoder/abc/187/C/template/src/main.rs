@@ -7,11 +7,34 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        n: i32,
+        strs: [String; n],
     }
 
-    println!("{} {}", a + b + c, s)
+    let mut mp = map::<String, i32>::new();
+    let mut ans = String::from("satisfiable");
+
+    for s in strs {
+        let check = s.as_bytes()[0 as usize] == ('!' as u8);
+        let key: String = if check { (&s[1..]).to_string() } else { s };
+        let val_check: i32 = if check { 1 } else { 2 };
+        let val_set: i32 = if check { 2 } else { 1 };
+
+        let val = 0;
+        match mp.get(&key) {
+            Some(&val) => {
+                if val == val_check {
+                    ans = key;
+                    break;
+                } else {
+                    mp.insert(key, val_set);
+                }
+            }
+            _ => {
+                mp.insert(key, val_set);
+            }
+        }
+    }
+
+    println!("{}", ans)
 }
