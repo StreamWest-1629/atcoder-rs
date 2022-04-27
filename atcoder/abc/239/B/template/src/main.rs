@@ -7,11 +7,13 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        x: i64,
     }
 
-    println!("{} {}", a + b + c, s)
+    let res = if x < 0 && (x % 10) != 0 {
+        (x / 10) - 1
+    } else {
+        x / 10
+    };
+    println!("{}", res)
 }
