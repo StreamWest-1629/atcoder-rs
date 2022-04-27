@@ -7,11 +7,8 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        h: f64
     }
 
-    println!("{} {}", a + b + c, s)
+    println!("{}", (h * (12800000.0 + h)).sqrt())
 }

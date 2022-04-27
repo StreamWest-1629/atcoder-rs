@@ -3,7 +3,7 @@
 ## Results
 | Contents | Execute Results (URL) |
 | :-: | :-- |
-| A | |
+| A | https://atcoder.jp/contests/abc239/submissions/31299280 |
 | B | |
 | C | |
 | D | |
@@ -15,7 +15,7 @@
 
 ## Comments
 ### A
-- 
+- 悩むことはないけどrustのsqrtのやり方を確認しておく
 
 ### B
 - 
