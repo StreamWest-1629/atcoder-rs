@@ -14,10 +14,10 @@ chmod +x ./create.sh
 for task in "A" "B" "C" "D" "E" "F" "G" "H"; do
 ./create.sh "${contest_dir}/${task}"
 md="$md
-| $task | |\n"
+| $task |  |\n"
 
 content="$content
-## $task\n
+### $task\n
 - \n
 \n
 "
@@ -25,7 +25,7 @@ done
 
 md="$md\n\n
 
-## Comments
+## Comments\n
 $content"
 
 cd ../
