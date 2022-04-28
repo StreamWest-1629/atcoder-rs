@@ -7,11 +7,26 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        pairs: [(i64, i64); 2],
     }
 
-    println!("{} {}", a + b + c, s)
+    let checks: Vec<(i64, i64)> = vec![
+        (1, 2),
+        (2, 1),
+        (-1, 2),
+        (2, -1),
+        (1, -2),
+        (-2, 1),
+        (-1, -2),
+        (-2, -1),
+    ];
+
+    for (x, y) in checks.iter() {
+        if (pairs[1].0 - pairs[0].0 + x).pow(2) + (pairs[1].1 - pairs[0].1 + y).pow(2) == 5 {
+            println!("Yes");
+            return;
+        }
+    }
+
+    println!("No");
 }

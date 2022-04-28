@@ -5,7 +5,7 @@
 | :-: | :-- |
 | A | https://atcoder.jp/contests/abc239/submissions/31299280 |
 | B | https://atcoder.jp/contests/abc239/submissions/31299518 |
-| C | |
+| C | https://atcoder.jp/contests/abc239/submissions/31315226 |
 | D | |
 | E | |
 | F | |
@@ -21,7 +21,8 @@
 - これも悩むことはないけど整数の性質を間違えないようにしないといけない（僕は間違えた）
 
 ### C
-- 
+- まあ，いいんじゃない？
+- 図形を理解してれば解ける
 
 ### D
 - 
