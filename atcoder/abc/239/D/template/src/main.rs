@@ -35,7 +35,7 @@ fn main() {
             }
         }
 
-        if !takahashi {
+        if takahashi {
             println!("Takahashi");
             return;
         }
