@@ -6,7 +6,7 @@
 | A | https://atcoder.jp/contests/abc239/submissions/31299280 |
 | B | https://atcoder.jp/contests/abc239/submissions/31299518 |
 | C | https://atcoder.jp/contests/abc239/submissions/31315226 |
-| D | |
+| D | https://atcoder.jp/contests/abc239/submissions/31464129 |
 | E | |
 | F | |
 | G | |
