@@ -3,7 +3,7 @@
 ## Results
 | Contents | Execute Results (URL) |
 | :-: | :-- |
-| A | |
+| A | https://atcoder.jp/contests/abc137/submissions/31560759 |
 | B | |
 | C | |
 | D | |
@@ -13,7 +13,7 @@
 
 ## Comments
 ### A
-- 
+- 比べるだけ
 
 ### B
 - 
