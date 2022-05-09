@@ -4,7 +4,7 @@
 | Contents | Execute Results (URL) |
 | :-: | :-- |
 | A | https://atcoder.jp/contests/abc137/submissions/31560759 |
-| B | |
+| B | https://atcoder.jp/contests/abc137/submissions/31561047 |
 | C | |
 | D | |
 | E | |
@@ -16,7 +16,7 @@
 - 比べるだけ
 
 ### B
-- 
+- 数字をうまく使おう（使えなかった）
 
 ### C
 - 

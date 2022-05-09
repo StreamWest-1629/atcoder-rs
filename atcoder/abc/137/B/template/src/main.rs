@@ -7,11 +7,17 @@ use std::collections::VecDeque as deque;
 
 fn main() {
     input! {
-        a: i32,
-        b: i32,
-        c: i32,
-        s: String,
+        k: i32,
+        x: i32,
     }
 
-    println!("{} {}", a + b + c, s)
+    let begin = cmp::max(-1000000, x - (k - 1));
+    let end = cmp::min(1000000, x + (k - 1));
+
+    print!("{}", begin);
+    for i in (begin+1)..=end {
+        print!(" {}", i);
+    }
+
+    println!("");
 }
